@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<title>Test</title>
+<link rel="stylesheet" href="style.css">  
+</head>
+<body class="body">
+<div class="header">
+    <h1>Test di prova</h1>
+    <h2>Test di prova</h2>
+    <h3>Test di prova</h3>
+    <h4>Test di prova</h4>
+    <h5>Test di prova</h5>
+    <h6>Test di prova</h6>
+</div>
+<div class="nav">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li> 
+    <div class="container"></div>
+    
+<h1 style="font-size:60px;">Titolo: Test di prova</h1>
+ <header class="panel"> 
+    <h1>Titolo: Test di prova</h1> </header>
+    <header class="panel h2">
+        <h2>Sottotitolo: testo </h2></header>
+    <header class="panel h3">
+    <h3>Sottosottotitolo: testo</h3> </header> <br>
+<hr><br>
+
+<p title=Description del Test>paragrafo: corpo del testo</p>
+<p style="color:red;">paragrafo: corpo del testo</p>
+<p>paragrafo: corpo del testo</p>
+<p>paragrafo: corpo del testo</p><br>
+
+<div class="p">
+<br>
+
+<p>
+Prima riga di testo esempio
+Seconda riga con contenuto
+Terza riga: ancora testo
+Quarta ed ultima riga</p>
+</div><br> <br>
+
+<div class="p1">
+<pre>
+Prima riga di testo esempio
+Seconda riga con contenuto
+Terza riga: ancora testo
+Quarta ed ultima riga
+</pre><br></div>
+
+<hr><br>
+
+<div class="body1">
+    
+<a href="https://www.w3schools.com">
+    collegamento ipertestuale a sito W3
+</a>
+</br>
+<br>
+    <img src="https://www.w3schools.com/html/w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+</br>
+
+<h2>L'attributo src</h2>
+<p>Le immagini in HTML sono definite con il tag img, e il nome del file della sorgente dell'immagine è specificato nell'attributo src:</p>
+<br>
+
+<img src="https://www.w3schools.com/html/img_girl.jpg" width="500" height="600">
+<hr><br><br>
+
+<head>
+    <style>
+    #div1 {
+      width: 350px;
+      height: 70px;
+      padding: 10px;
+      border: 8px solid #aaaaaa;
+    }
+    </style>
+    <script>
+    function dragstartHandler(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+    }
+    
+    function dragoverHandler(ev) {
+      ev.preventDefault();
+    }
+    
+    function dropHandler(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+    }
+    </script>
+    </head>
+    <body>
+    
+    <h1>Drag and Drop API</h1>
+    
+    <p>Drag the W3Schools image into the rectangle:</p>
+    
+    <div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
+    <br>
+    <img id="img1" src="https://www.w3schools.com/html/img_logo.gif" draggable="true" ondragstart="dragstartHandler(event)" width="336" height="69">
+    
+    </body>
+
+</body>
+</html>

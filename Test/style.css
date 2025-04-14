@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    background-image: url(https://www.w3schools.com/css/paper.gif);
+    
+
+}
+.container {
+    margin: 0 auto;
+    max-width: 540px;
+    
+}
+.panel {
+    
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgb(23, 42, 208);
+    color: rgb(222, 35, 35);
+    border: 2px solid rgb(23, 208, 66);
+    font-size: 24px;
+    text-align: center;
+}
+.h2 {
+    padding: 16px;
+    border-radius: 16px;
+    color: rgb(17, 200, 75);
+    font-size: 24px;
+    border: 2px solid rgb(23, 35, 208);
+    text-align: center;
+    background-color: rgb(181, 41, 23);
+
+}
+.h3 {
+    color: rgb(14, 14, 222);
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgb(76, 208, 23);
+    border: 2px solid rgb(208, 39, 23);
+
+}
+.p {
+    color: red;
+    text-align:end;
+    font-size: 23px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 20px;
+
+  }
+.p1 {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-color: rgb(13, 0, 255);
+
+
+  } 
+.body1 {
+    background-image: url(https://www.w3schools.com/css/img_tree.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    background-attachment: fixed;
+    font-size: 24px;
+    text-align: center;
+}
